@@ -1,0 +1,79 @@
+.nav-right {
+  background-color: #fafafa;
+  width: 300px;
+  height: 500px;
+  position: fixed;
+  top: 100px;
+  left: 690px;
+}
+.myProfile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myProfile-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.myProfile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.myProfile .my-name,
+.recommend-friends .r-friend-name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.myProfile .my-detail,
+.recommend-friends .r-friend-detail {
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.recommendation-column {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.recommendation {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.see-all {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.r-friend-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.r-friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.r-friend-column {
+  display: flex;
+}
+.r-friend-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.r-friend-follow {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.9;
+  color: #0095f6;
+}
